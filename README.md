@@ -5,6 +5,7 @@ This project reduces links and displays the number of clicks on them. This proje
 
 ## Requests
 Requests is a simple but elegant HTTP library. 
+```
 >>> import requests
 >>> r = requests.get('https://httpbin.org/basic-auth/user/pass', auth=('user', 'pass'))
 >>> r.status_code
@@ -17,3 +18,4 @@ Requests is a simple but elegant HTTP library.
 '{"authenticated": true, ...'
 >>> r.json()
 {'authenticated': True, ...}
+```
