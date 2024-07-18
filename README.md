@@ -15,6 +15,15 @@ apikey_bitly = here is your Bitly token
 `
 
 ## How to run the file
-`
-*kpvdpjp*
-`
+
+In order to shorten the link, you need to run the file where your link will be used as an argument:
+
+```
+python main.py https://dvmn.org/modules/
+```
+
+To count clicks on a link, you need to run a file where your Bitly will be used as an argument:
+
+```
+python main.py https://bit.ly/3N9ThBf
+```
