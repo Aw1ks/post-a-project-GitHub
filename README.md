@@ -6,4 +6,4 @@ Python3 should already be installed. Use `pip` (or `pip3`, there is a conflict w
 ```
 pip install -r requirements.txt
 ```
-article about [pip](https://pip.pypa.io/en/latest/installation/)
+It is recommended to use [virtual/venv](https://docs.python.org/3/library/venv.html)
