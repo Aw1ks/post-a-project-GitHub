@@ -5,4 +5,16 @@ This project reduces links and displays the number of clicks on them. This proje
 
 ## Requests
 Requests is a simple but elegant HTTP library. 
-```import requests```
+```
+import requests
+
+def shorten_link(headers, url):
+    bit_url = 'https://api-ssl.bitly.com/v4/shorten'
+
+    params = {"long_url": url}
+
+    response = requests.post(bit_url, headers=headers, json=params)
+    response.raise_for_status()
+    return response.json()['link']
+
+```
